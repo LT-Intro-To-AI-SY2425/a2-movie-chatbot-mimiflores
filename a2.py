@@ -36,7 +36,7 @@ def match(pattern: List[str], source: List[str]) -> List[str]:
         elif sind == len(source) and pind < len(pattern):
             return None
         # 4) if the current thing in the pattern is an _
-
+        
         # 5) if the current thing in the pattern is the same as the current thing in the
         # source
 
