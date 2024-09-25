@@ -32,11 +32,9 @@ def match(pattern: List[str], source: List[str]) -> List[str]:
         # If you get stuck on this one, we encourage you to attempt the other conditions
         #   and come back to this one afterwards
 
-        # elif pattern[pind] == "%":
-        #     result.append(pattern[pind])
-        #     pind += 1
-        #     sind += 1
-
+        elif pattern[pind] == "%":
+            if pind = len(pattern) - 1: 
+                
         # 3) if we reached the end of the source but not the pattern
         elif sind == len(source) and pind < len(pattern):
             return None
