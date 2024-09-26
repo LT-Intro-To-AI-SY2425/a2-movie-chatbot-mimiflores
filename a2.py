@@ -36,6 +36,8 @@ def match(pattern: List[str], source: List[str]) -> List[str]:
             if pind == len(pattern) - 1: 
                 res = " ".join(source[sind:])
                 result.append(res)
+                pind += 1
+                sind = len(source)
                 return result
             else:
                 return None
