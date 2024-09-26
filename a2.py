@@ -35,7 +35,10 @@ def match(pattern: List[str], source: List[str]) -> List[str]:
         elif pattern[pind] == "%":
             if pind == len(pattern) - 1: 
                 res = " ".join(source[sind:])
-                return [res]
+                result.append(res)
+                return result
+            else:
+                return None
         # 3) if we reached the end of the source but not the pattern
         elif sind == len(source) and pind < len(pattern):
             return None
