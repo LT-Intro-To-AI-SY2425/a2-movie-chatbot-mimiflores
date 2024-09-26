@@ -39,6 +39,7 @@ def match(pattern: List[str], source: List[str]) -> List[str]:
                 pind += 1
                 sind = len(source)
                 return result
+            # finish on monday
             else:
                 return None
         # 3) if we reached the end of the source but not the pattern
