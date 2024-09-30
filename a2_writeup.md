@@ -20,7 +20,9 @@ instead of the java way was also difficult.
 
 
 2. Explain how you could use the match function for extracting information from a movie database.
-The match funciton could be used for extracting information from a movie database because
+The match function could be used for extracting information from a movie database because
 it could be used to identify similarities between the questions asked and the database
-in order to answer the question. 
+in order to answer the question. I am a little confused about how it will be implemented exactly
+but I do understand what the function is doing based on the input it is given and how it will 
+possibly be used in the next assignment.
 
