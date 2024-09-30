@@ -45,7 +45,7 @@ def match(pattern: List[str], source: List[str]) -> List[str]:
                     accum += source[sind] + " "
                     sind += 1
                     print(accum)
-                result.append(accum)
+                result.append(accum.rstrip())
         # 3) if we reached the end of the source but not the pattern
         elif sind == len(source) and pind < len(pattern):
             return None
